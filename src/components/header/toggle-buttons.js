@@ -1,4 +1,5 @@
-import { ToggleButton, ToggleButtonGroup } from '@mui/material'
+import ToggleButton from '@mui/material/ToggleButton'
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup'
 
 const ToggleButtons = ({ value, setValue, toggleSettings }) => {
 
@@ -15,14 +16,14 @@ const ToggleButtons = ({ value, setValue, toggleSettings }) => {
         sx={{ textTransform: 'capitalize' }}
         onClick={() => setValue(toggleSettings.MAIN_HOOKS)}
       >
-				Main
+		Main
       </ToggleButton>
       <ToggleButton
         sx={{ textTransform: 'capitalize' }}
         value={toggleSettings.ADDITIONAL_HOOKS}
         onClick={() => setValue(toggleSettings.ADDITIONAL_HOOKS)}
       >
-				Additional
+		Additional
       </ToggleButton>
     </ToggleButtonGroup>
   )

@@ -1,4 +1,7 @@
-import { Box, List, ListItemButton, ListItemText } from '@mui/material'
+import Box from '@mui/material/Box'
+import List from '@mui/material/List'
+import ListItemText from '@mui/material/ListItemText'
+import ListItemButton from '@mui/material/ListItemButton'
 /*
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom'
@@ -14,17 +17,17 @@ const Main = () => {
     { listText: 'useRef', path: '/useRef' },
     { listText: 'useMemo', path: '/useMemo' },
     { listText: 'useCallback', path: '/useCallback' },
-    { listText: 'useEffectLayout', path: '/useEffectLayout' },
+    { listText: 'useLayoutEffect', path: '/useLayoutEffect' },
   ]
 
   return (
     <>
       <Box
         sx={{
-          width: '30%',
+          width: '220px',
           background: 'white',
-          height: 'calc(100vh - 60px)',
           border: '1px solid',
+          height: 'calc(100vh - 66px)',
         }}
       >
         <List sx={{ width: '100%' }}>
