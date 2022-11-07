@@ -19,13 +19,13 @@ const Header = () => {
           <Typography variant='h6' color='white'>
             React hooks
           </Typography>
-        <ToggleButtons value={value} setValue={setValue} toggleSettings={toggleSettings} />
+          <ToggleButtons value={value} setValue={setValue} toggleSettings={toggleSettings} />
         </Toolbar>
       </AppBar>
       {
-       R.equals(value, toggleSettings.MAIN_HOOKS)
-        ? <Main />
-         : <Additional />
+        R.equals(value, toggleSettings.MAIN_HOOKS)
+          ? <Main />
+          : <Additional />
       }
     </>
   )
