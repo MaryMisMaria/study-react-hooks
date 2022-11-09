@@ -1,13 +1,13 @@
-import { Typography } from '@mui/material'
-import './App.css';
+// import { Typography } from '@mui/material'
+import './App.css'
 import Header from './components/header'
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
