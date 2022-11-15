@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React  from 'react'
 import { Box, Link, Typography } from '@mui/material'
 
 const Footer = () => {
-  render() {
     return (
       <Box sx={{
         width: '100%',
@@ -18,7 +17,6 @@ const Footer = () => {
         </Link>
       </Box>
     )
-  }
 }
 
 export default Footer
