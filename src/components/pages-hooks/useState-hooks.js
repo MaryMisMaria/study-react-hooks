@@ -36,7 +36,7 @@ const HooksUseState = () => {
           </ListItemText>
         </List>
       </Box>
-      <Card pb={4} sx={{ maxWidth: '40%', maxHeight: '65vh' }}>
+      <Card pb={4} sx={{ maxWidth: '80%', maxHeight: '50%' }}>
         <CardMedia
           height='200px'
           component='img'
