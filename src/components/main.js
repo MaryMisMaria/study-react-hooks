@@ -27,7 +27,7 @@ const Main = ({ children }) => {
           background: '#081627',
         }}
       >
-        <Typography mt={5} mb={2} align='center'>List Hooks</Typography>
+        <Typography pt={5} mb={2} align='center'>List Hooks</Typography>
         <Divider color='white' />
         <List sx={{ width: '100%' }}>
           {listItems.map((listItem, index) => (
@@ -36,13 +36,13 @@ const Main = ({ children }) => {
               key={index}
               component={Link}
               to={listItem.path}
-              sx={{ display: 'flex', textAlign: 'center', '&:hover': { background: '#f3e5f5' } }}
+              sx={{ display: 'flex', textAlign: 'center', '&:hover': { background: 'silver' } }}
             >
               <ListItemText primary={listItem.listText} />
             </ListItemButton>
           ))}
         </List>
-
+        <Divider color='white' />
       </Box>
       <Box>{children}</Box>
     </Box>
